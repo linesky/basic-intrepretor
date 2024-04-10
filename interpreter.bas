@@ -12,6 +12,6 @@ sub sline(ffile as string)
 		escapes:
 	close 1
 end sub
-color 7,1
+color 7,6
 if command(1)<>"" then sline(command(1))
 	
